@@ -1,0 +1,28 @@
+{
+  "expo": {
+    "name": "merCat",
+    "slug": "mercat",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#F5F5DC"
+    },
+    "assetBundlePatterns": ["**/*"],
+    "android": {
+      "package": "com.mercat.app",
+      "versionCode": 1,
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#F5F5DC"
+      },
+      "permissions": ["ACCESS_FINE_LOCATION"]
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
